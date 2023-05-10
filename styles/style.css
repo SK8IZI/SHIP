@@ -1,0 +1,247 @@
+/*font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header_line{
+    background: #F7F7F7;
+    height: 56px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.line_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_link{
+    display: flex;
+    align-items: center;
+}
+.number{
+    display: flex;
+    align-items: center;
+    margin-right: 63px;
+}
+.num_logo{
+    margin-right: 14px;
+}
+.number_list{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #232323;
+}
+.mail{
+    display: flex;
+    align-items: center;
+}
+.mail_logo{
+    margin-right: 14px;
+}
+.mail_list{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #232323;
+}
+.free{
+    display: flex;
+    justify-content: center;
+}
+.free_list{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #9E3040;
+
+}
+.gps{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.gps_logo{
+    margin-right: 14px;
+}
+.gps_list{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #232323;  
+}
+
+.logo_list{
+    margin: 30px 0;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    color: #9E3040;
+}
+
+.header_nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.main_nav{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.main_nav_list_first{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #232323;
+}
+.main_nav_list{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #686868;
+    display: flex;
+    align-items: center;
+}
+
+.buttons_nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.search_btn{
+    padding: 0;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+.search_logo{
+
+    padding: 10px 13px;
+}
+.like_btn{
+    padding: 0;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+.like_logo{
+    padding: 10px 13px;
+}
+.cart{
+    padding: 0;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+.cart_logo{
+    padding: 10px 13px;
+}
+.sign_in{
+    padding: 10px 32px;
+    border: 0;
+    color: white;
+    background-color: #9E3040;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+.BG{
+    background-image: url(../img/BG.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.txt{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 117.1%;
+    color: #ffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding-top: 236px;
+}
+.txt_d{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 14px;
+    padding-bottom: 32px;
+}
+.arrow{
+    margin-left: 10px;
+}
+.btn_buy_now{
+    padding: 10px 27px;
+    border: 0;
+    color: #9E3040;
+    background-color: #ffffff;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+.prikol{
+    display: flex;
+    align-items: center;
+    gap: 255px;
+    justify-content: center;
+}
+.car_txt_one,
+.sec_txt_one,
+.ph_txt_one{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+}
+
+.car_txt_two,
+.sec_txt_two,
+.ph_txt_two{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+}
